@@ -39,6 +39,7 @@ console.log("last line of the file");
 // a =  100
 // last line of the file
 // process.nextTick
+// Promise
 // setImmediate
 // file reading
 // file reading
