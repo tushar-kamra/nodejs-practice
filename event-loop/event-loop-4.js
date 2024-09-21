@@ -30,3 +30,27 @@ setTimeout(() => {
 }, 0);
 
 console.log("last line of the file");
+
+
+// last line of the file
+// next tick
+// inner nexttick
+// promise
+// timer expired
+// timer 3 expired
+// setimmediate
+// timer 2 expired
+// setimmediate 2
+// file reading cb
+
+
+// last line of the file
+// next tick
+// inner nexttick
+// promise
+// timer expired
+// timer 3 expired
+// setimmediate
+// setimmediate 2
+// timer 2 expired
+// file reading cb
