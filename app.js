@@ -9,9 +9,18 @@ const { calculateMultiply, calculateSum } = require("./calculate");
 
 // console.log(require("./data.json"));
 
-require("./test");
+// require("./test");
 // require("./test2");
 
-console.log(__filename, __dirname);
+// console.log(__filename, __dirname);
 
 // console.log(globalThis);
+
+var a = 2;
+function x() {
+    a = 1;
+}
+
+console.log(a);
+
+x();
