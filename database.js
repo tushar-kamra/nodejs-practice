@@ -15,16 +15,16 @@ async function main() {
     const collection = db.collection("user");
 
     const data = {
-        "_id": 1,
-        firstname: 'Shivam',
-        lastName: 'Kamra',
-        city: 'Delhi',
-        'age': 26,
-        "country": 'India'
+        _id: 1,
+        firstname: "Shivam",
+        lastName: "Kamra",
+        city: "Delhi",
+        age: 26,
+        country: "India",
     };
 
     const insertResult = await collection.insertOne(data);
-console.log('Inserted documents =>', insertResult);
+    console.log("Inserted documents =>", insertResult);
 
     const findResult = await collection.find({}).toArray();
     console.log("Found documents =>", findResult);
@@ -36,4 +36,3 @@ main()
     .then(console.log)
     .catch(console.error)
     .finally(() => client.close());
-
